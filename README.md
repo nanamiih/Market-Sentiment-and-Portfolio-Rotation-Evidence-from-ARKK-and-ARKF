@@ -10,8 +10,9 @@ This project studies how actively managed ETFs — **ARK Innovation ETF (ARKK)**
 | `Trade_Event_t`   | Binary indicator of significant trading activity (> 1% weight change)                |
 
 ### Key Outcomes
-- FinTech holdings behave as stable core positions with near-zero sensitivity to sentiment.
-- Non-FinTech holdings act as a tactical “satellite sleeve”, especially in ARKK, absorbing sentiment shocks through rebalancing.
-- Sentiment explains less than 1% of daily ETF return variation for both ARKK and ARKF.
-- A simple sentiment-based trading strategy does not outperform buy-and-hold.
-- Market sentiment is more informative for portfolio composition decisions than for predicting ETF performance.
+- **FinTech holdings act as a stable core** in both ARKK and ARKF, while most day-to-day portfolio rotation occurs in non-FinTech positions.
+- **Sentiment–trading correlations are uniformly weak**, indicating limited mechanical response to same-day news sentiment.
+- **ARKK actively adjusts its non-FinTech sleeve**: positive sentiment leads to a statistically significant reduction in non-FinTech exposure on the following day, suggesting this sleeve is used as a shock absorber.
+- **ARKF shows weaker and mostly insignificant sentiment-driven rotation**, indicating a more passive tactical structure compared to ARKK.
+- **ETF-level sentiment explains less than 1% of daily return variation** and does not support a profitable sentiment-based timing strategy; sentiment is more informative for portfolio rebalancing than for short-term performance prediction.
+<img width="1098" height="139" alt="image" src="https://github.com/user-attachments/assets/e7185a6b-a4b3-4df5-9f8d-1c741fa20e82" />
